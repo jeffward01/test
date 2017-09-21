@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron2">
+    <h2>FNG AngularJS Hands On Exam</h2>
+    <p>The purpose of this exam is to test your experience creating data entry forms using AngularJS.</p>
+    <ul>        
+        <li>Download and run the <a href="~/Content/HandsOnExam.txt" download>HandsOnExam.txt</a> SQL script on your local SQL Server. This will create a database called "HandsOnExam" with a table called "Customer" that will be used throughout this exercise.</li>
+        <li>In this same project implement the following 4 features: 1) Customer List, 2) Create New Customer, 3) Edit Customer, and 4) Delete Customer. Additional details are listed below for each feature.</li>
+        <li>Implement the features as close as possible to how you have best implemented similar ones in the real world. The UI does not need to be exactly the same as that shown below as long as the functionality is the same.</li>
+        <li>The "Customers" link above will redirect to the "customers/index.html" file which includes AngularJS and other dependencies. Use this file as the starting point for this exercise.</li>
+    </ul>    
+</div>
+
+<div class="row">
+    <h3>1. Customer List</h3>
+    <p>Clicking on the "Customers" link should produce a view that lists all customers in the system and allows editing and deleting them:</p>
+    <img src="~/Content/images/instructions1.JPG" />
+        
+
+    <br />
+    <br />
+    <br />
+    <h3>2. Create New Customer</h3>
+    <p>Clicking on the "Create New Customer" link should produce a view that allows entering new customer information and saving it:</p>
+    <img src="~/Content/images/instructions2.JPG" />
+    <br />
+    <img src="~/Content/images/instructions3.JPG" />
+    <p>This view should also have a "Back to List" link that redirects back to the "Customer List" view.</p>
+
+    <br />
+    <br />
+    <br />
+    <p>Clicking on the "Create" button should produce validation errors if invalid data is entered:</p>
+    <img src="~/Content/images/instructions4.JPG" />
+
+    <br />
+    <br />
+    <br />
+    <p>If valid data is entered, clicking the "Create" button should save the data to the database and redirect to the "Customer List" view with the new customer listed:</p>
+    <img src="~/Content/images/instructions5.JPG" />
+    <br />
+    <img src="~/Content/images/instructions6.JPG" />
+
+
+    <br />
+    <br />
+    <br />
+    <h3>3. Edit Customer</h3>
+    <p>Clicking on the "Edit" button should produce a view that allows modifying and saving the customer information:</p>
+    <img src="~/Content/images/instructions7.JPG" />
+    <br />
+    <img src="~/Content/images/instructions8.JPG" />
+    <p>This view should also have a "Back to List" link that redirects back to the "Customer List" view.</p>
+
+    <br />
+    <br />
+    <br />
+    <p>Clicking on the "Save" button should produce validation errors if invalid data is entered:</p>
+    <img src="~/Content/images/instructions9.JPG" />
+
+    <br />
+    <br />
+    <br />
+    <p>If valid data is entered, clicking the "Save" button should save the data to the database and redirect to the "Customer List" view with the updated customer listed:</p>
+    <img src="~/Content/images/instructions10.JPG" />
+    <br />
+    <img src="~/Content/images/instructions11.JPG" />
+
+    <br />
+    <br />
+    <br />
+    <h3>4. Delete Customer</h3>
+    <p>Clicking on the "Delete" button should delete the customer from the database and remove the customer from the list:</p>
+    <img src="~/Content/images/instructions12.JPG" />
+    <br />
+    <img src="~/Content/images/instructions13.JPG" />
+</div>

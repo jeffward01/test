@@ -1,0 +1,15 @@
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\HandsOnExam.Business.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\HandsOnExam.Business.pdb
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\HandsOnExam.Data.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\HandsOnExam.Models.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\EntityFramework.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\HandsOnExam.Data.pdb
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\HandsOnExam.Models.pdb
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\EntityFramework.xml
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\obj\Debug\HandsOnExam.Business.csprojResolveAssemblyReference.cache
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\obj\Debug\HandsOnExam.Business.dll
+C:\Dev\work\FoxNetworks\InterviewProject\HandsOnExam AngularJS\HandsOnExam.Business\obj\Debug\HandsOnExam.Business.pdb
