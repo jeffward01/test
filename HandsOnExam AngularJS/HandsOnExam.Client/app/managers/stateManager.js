@@ -126,36 +126,6 @@
 
         stateMangerFactory.goToConfirmRegistration = _goToConfirmRegistration;
 
-        stateMangerFactory.forgotPassword = _forgotPassword;
-        stateMangerFactory.goToConfirmEmail = _goToConfirmEmail;
-        stateMangerFactory.goToUpdateEmail = _goToUpdateEmail;
-        stateMangerFactory.goToVerifyEmail = _goToVerifyEmail;
-        stateMangerFactory.goToUserProfile = _goToUserProfile;
-        stateMangerFactory.goToLandingPage = _goToLandingPage;
-        stateMangerFactory.goToContactUs = _goToContactUs;
-        stateMangerFactory.goToBlog = _goToBlog;
-        stateMangerFactory.goToForum = _goToForum;
-        stateMangerFactory.goToLogin = _goToLogin;
-        stateMangerFactory.goToCreateAccount = _goToCreateAccount;
-        stateMangerFactory.goToSearch = _goToSearch;
-        stateMangerFactory.goToNootropicDetail = _goToNootropicDetail;
-        stateMangerFactory.goToAddNootropic = _goToAddNootropic;
-        stateMangerFactory.goToAddReview = _goToAddReview;
-        stateMangerFactory.goToNootReviewDetail = _goToAddReviewDetail;
-        stateMangerFactory.goToStackDetail = _goToStackDetail;
-        stateMangerFactory.goToAddStack = _goToAddStack;
-        stateMangerFactory.goToAddStackReview = _goToAddStackReview;
-        stateMangerFactory.goToStackReviewDetail = _goToStackReviewDetail;
-        stateMangerFactory.goToJournalDetail = _goToJournalDetail;
-        stateMangerFactory.goToAddJournal = _goToAddJournal;
-        stateMangerFactory.goToJournalEntry = _goToJournalEntry;
-        stateMangerFactory.goToVendorDetail = _goToVendorDetail;
-        stateMangerFactory.goToAddVendor = _goToAddVendor;
-        stateMangerFactory.goToAddVendorReview = _goToAddVendorReview;
-        stateMangerFactory.goToAddVendorProductReview = _goToAddVendorProductReview;
-        stateMangerFactory.goToHome = _goToHome;
-        stateMangerFactory.goToMyProfile = _goToMyProfile;
-        stateMangerFactory.goToSettings = _goToSettings;
 
 
 

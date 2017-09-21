@@ -25,6 +25,13 @@
                     350);
             }
 
+
+            $scope.goToCustomers = function() {
+                $state.go('app.customers', {});
+            }
+
+
+
             $scope.goToSnippet = function () {
                 $state.go('app.home', {});
                 $timeout(function () {

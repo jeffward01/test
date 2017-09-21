@@ -7,39 +7,50 @@
 
         //States
         $stateProvider.state('app',
-            {
-                url: '/app',
-                templateUrl: 'app/views/app.html',
-                controller: 'appController',
-                data: {
-                    displayName: 'App'
-                }
-            })
-            .state('app.home',
-            {
-                url: '/home',
-                templateUrl: 'app/views/home.html',
-                controller: 'homeController',
-                data: {
-                    displayName: 'Home'
-                }
-            })
-            .state('app.portfolioItem',
-            {
-                url: '/customer/:projectId',
-                templateUrl: 'app/views/portfolioItem.html',
-                controller: 'portfolioItemController',
-                data: {
-                    displayName: 'Portfolio Item',
-                    projectId: null
-                }
-            }).state('app.resume',
                 {
-                    url: '/resume',
-                    templateUrl: 'app/views/resume.html',
-                    controller: 'resumeController',
+                    url: '/app',
+                    templateUrl: 'app/views/app.html',
+                    controller: 'appController',
                     data: {
-                        displayName: 'Resume',
+                        displayName: 'App'
+                    }
+                })
+            .state('app.home',
+                {
+                    url: '/home',
+                    templateUrl: 'app/views/home.html',
+                    controller: 'homeController',
+                    data: {
+                        displayName: 'Home'
+                    }
+                })
+
+            .state('app.customers',
+                {
+                    url: '/customers',
+                    templateUrl: 'app/views/customers.html',
+                    controller: 'customersController',
+                    data: {
+                        displayName: 'Customer List',
+                        projectId: null
+                    }
+                })
+            .state('app.addCustomer',
+                {
+                    url: '/addCustomer/:customerId',
+                    templateUrl: 'app/views/addCustomer.html',
+                    controller: 'addCustomerController',
+                    data: {
+                        displayName: 'Add Customer',
+                        projectId: null
+                    }
+                }).state('app.editCustomer',
+                {
+                    url: '/editCustomer/:customerId',
+                    templateUrl: 'app/views/editCustomer.html',
+                    controller: 'editCustomerController',
+                    data: {
+                        displayName: 'Edit Customer',
                         projectId: null
                     }
                 });

@@ -66,8 +66,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\controllers\addCustomerController.js" />
+    <Content Include="app\controllers\customersController.js" />
+    <Content Include="app\controllers\editCustomer.js" />
+    <Content Include="app\managers\stateManager.js" />
+    <Content Include="app\services\alertService.js" />
+    <Content Include="app\services\customerService.js" />
+    <Content Include="app\services\toastrService.js" />
+    <Content Include="app\views\addCustomer.html" />
+    <Content Include="app\views\editCustomer.html" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
-    <Content Include="app\views\web.config" />
     <Content Include="bower.json" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="bower_components\angular-bootstrap\.bower.json" />
@@ -314,6 +323,7 @@
     <Content Include="bower_components\toastr\toastr.js.map" />
     <Content Include="bower_components\toastr\toastr.less" />
     <Content Include="bower_components\toastr\toastr.scss" />
+    <Content Include="data.tsv" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -323,20 +333,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
-    <Content Include="app\controllers\addCustomerController.js" />
     <Content Include="app\controllers\appController.js" />
-    <Content Include="app\controllers\editCustomerController.js" />
     <Content Include="app\controllers\homeController.js" />
-    <Content Include="app\services\customerService.js" />
     <Content Include="app\services\authInterceptorService.js" />
     <Content Include="app\services\authService.js" />
-    <Content Include="app\views\addProject.html" />
-    <Content Include="app\views\allProjects.html" />
     <Content Include="app\views\app.html" />
-    <Content Include="app\views\editProject.html" />
     <Content Include="app\views\home.html" />
-    <Content Include="app\views\portfolioItem.html" />
-    <Content Include="app\views\viewProject.html" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bower_components\angular-bootstrap\index.js" />
     <Content Include="bower_components\angular-bootstrap\ui-bootstrap-csp.css" />
@@ -587,7 +589,6 @@
     <Content Include="img\portfolio\safe.png" />
     <Content Include="img\portfolio\submarine.png" />
     <Content Include="img\profile.png" />
-    <Content Include="app\index.html" />
     <Content Include="scripts\themeScript.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

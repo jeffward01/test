@@ -1,119 +1,13 @@
-﻿<!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+﻿    <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" ng-click="goToHome()">Jeff Ward</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-
-                <li ng-click="goToSnippet()" scroll-to="portfolio"  ng-show="false">
-                    <a>Code Snippets</a>
-                </li>
-                <li style="margin-top: 15px">
-                    <file-download fileurl="resume.pdf" linktext="Download Resume"></file-download>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li class="page-scroll"  id="skillTab" ng-click="goToSkills()">
-                    <a data-target="#skills" >Skills</a>
-                </li>
-                <li class="page-scroll"  id="aboutTab" ng-click="gotoAbout()" >
-                    <a data-target="#aboutMe">About</a>
-                </li>
-                <li class="page-scroll"  id="featuredProjectTab" ng-click="goToFeaturedProjects()">
-                    <a data-target="#featuredProjects">Featured Projects</a>
-                </li>
-                <li class="page-scroll"  id="portfolioTab" ng-click="goToPortfolio()">
-                    <a data-target="#portfolio">Portfolio</a>
-                </li>
-
-                <li class="page-scroll"  id="contactTab" ng-click="goToContact()">
-                    <a data-target="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
-<div ui-view></div>
-
-<!-- Footer -->
-<footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>
-                        Los Angeles, CA
-                        <br>
-                        <br>
-                        Open to Relocation
-                    </p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://github.com/jeffward01" target="_blank" class="btn-social btn-outline"><span class="sr-only">Github</span><i class="fa fa-fw fa-github"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@Crypto_Wizard" target="_blank" class="btn-social btn-outline"><span class="sr-only">Medium</span><i class="fa fa-fw fa-medium"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/jeffwardcoding"  target="_blank" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/jeffward01/"  target="_blank" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/5022269/jward01?tab=profile"  target="_blank" class="btn-social btn-outline"><span class="sr-only">Stack Overflow</span><i class="fa fa-fw fa-stack-overflow"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Useful Links</h3>
-                    <ul class="list-inline" style="text-align: center; margin: 0 auto">
-                        <li>
-                            <p><a href="#"><file-download fileurl="resume.pdf" linktext="Resume"></file-download></a></p>
-                        </li>
-                        <li>
-                            <p><a href="#">Blog</a></p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <a class="navbar-brand" ng-click="goToCustomers()" href="#">Home</a>
+            <a class="navbar-brand"  ng-click="goToCustomers()" href="#">Customers</a>
         </div>
     </div>
-    <div class="footer-below">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    Copyright &copy; jeffwarddevelopment.com 2017
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
 </div>
